@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/JoeWrightNC/pokedex/issues"
   },
-  "homepage": "https://github.com/JoeWrightNC/pokedex#readme"
+  "homepage": "https://github.com/JoeWrightNC/pokedex#readme",
+  "dependencies": {
+    "inquirer": "^5.2.0",
+    "pokeapi-node-wrapper": "^1.0.0",
+    "pokedex-promise-v2": "^3.1.1"
+  }
 }
