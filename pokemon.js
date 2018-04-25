@@ -22,7 +22,10 @@ function screenOne() {
       itemFinder()
     }
     else if (replyOne.answer === "I'm just looking for a friend") {
-      console.log("Sorry. Pokedex is not a friend, but a tool for mastering pokemon")
+      console.log("---------------------------\nSorry. Pokedex is not a friend, but a tool for mastering pokemon\n---------------------------")
+      setTimeout (function() {
+        doNext();
+      },4000)
     }
   })
 }
